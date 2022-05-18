@@ -1,0 +1,16 @@
+.centerFixed{
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    margin-top: 50px;
+    
+}
+
+.fixed {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
