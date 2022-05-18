@@ -39,7 +39,7 @@ const Home = (props) => {
             ref={searchRef}
             type="text"
             className="form-control"
-            placeholder="ByCategory: seafood, beef, pork, chicken.."
+            placeholder="SearchByCategory: seafood, beef, pork, chicken.."
             aria-label="City"
           />
         </div>
