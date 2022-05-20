@@ -2,7 +2,7 @@
   "name": "recipe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://swan369.github.io/recipeV1",
+  "homepage": "http://swan369.github.io/recipeAPI",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
