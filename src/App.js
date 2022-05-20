@@ -43,19 +43,20 @@ function App() {
         const randomNum = Math.floor(Math.random(num) * num + 1);
         return randomNum;
       };
-
       let maxRecipes = [];
-      let randomIndex;
+      let randomIndex = [];
 
-      for (let i = 0; i < 10; i++) {
+      while (maxRecipes.length < 9) {
         let r = random(20);
-        if (r !== randomIndex) {
+        const result = randomIndex.find((el) => el === r);
+        if (!result) {
           maxRecipes.push(n[r]);
-          randomIndex = r;
+          randomIndex.push(r);
         }
       }
       return maxRecipes;
     };
+
     const URL = `https://themealdb.com/api/json/v1/1/filter.php?c=Seafood
     `;
     setStatus("Pending");
